@@ -7,10 +7,10 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.shuashuati\.com url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/sanzhanzhan.js
+https://jk.dmzgame.com/users/info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/sanzhanzhan.js
 
 [mitm]
-hostname = api.shuashuati.com
+hostname = jk.dmzgame.com
 
 *************************************/
 var body = JSON.parse($response.body);
