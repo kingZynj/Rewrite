@@ -7,7 +7,8 @@
 **************************************
 
 [rewrite_local]
-https://jk.dmzgame.com/users/info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/sanzhanzhan.js
+https://jk.dmzgame.com/users/info url script-echo-response https://raw.githubusercontent.com/Yu9191/Rewrite/main/sanzhanzhan.js
+
 
 [mitm]
 hostname = jk.dmzgame.com
