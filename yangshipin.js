@@ -8,10 +8,12 @@
 [rewrite_local]
 
 ^http:\/\/playvv\.ysp\.cctv\.cn\/playvinfo\?.+$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
+&guid=\w+&app_version=([\d\.]+)&spadseg=(\d)&userid=(|\d+) url 302 &guid=26ae4779b2b411ec90a46c92bfd79530&app_version=$1&spadseg=$2&vuserid=209027229
 
 #^https:\/\/m\.yangshipin\.cn\/static\/\w/\w+\/index\.html$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
 # > 央视频 去广告来源 @广告必须死
 ^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/m8uTS50pt3DC0Xd6\.json url reject-200
+
 
 [mitm]
 hostname = playvv.ysp.cctv.cn, cdn.cmgadx.com
