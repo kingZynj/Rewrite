@@ -10,7 +10,7 @@
 
 ^http:\/\/playvv\.ysp\.cctv\.cn\/playvinfo\?.+$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
 #如果登录提示错误的话 手动屏蔽下面这条302
-#&guid=\w+&app_version=([\d\.]+)&spadseg=(\d)&userid=(|\d+) url 302 &guid=26ae4779b2b411ec90a46c92bfd79530&app_version=$1&spadseg=$2&vuserid=209027229
+&guid=\w+&app_version=([\d\.]+)&spadseg=(\d)&userid=(|\d+) url 302 &guid=26ae4779b2b411ec90a46c92bfd79530&app_version=$1&spadseg=$2&vuserid=209027229
 #^https:\/\/liveinfo\.ysp\.cctv\.cn\/ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
 #^https:\/\/m\.yangshipin\.cn\/static\/\w/\w+\/index\.html$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
 # > 央视频 去广告来源 @广告必须死
