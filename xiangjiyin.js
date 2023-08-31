@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body xiangjiyin.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xiangjiyin.js
 
 [mitm] 
 hostname = api.revenuecat.com
