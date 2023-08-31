@@ -6,7 +6,10 @@
 使用说明：仅供学习 禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖
 特别说明：8.8号最新版修复bug,由于相关人员警告,不再更新
 [rewrite_local]
-^https:\/\/xunji\.gxzckj\.com\/whole_user_info_v3 url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xunji.js
+
+^https?:\/\/xunji\.gxzckj\.com\/whole_user_info_v4.*? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xunji.js
+#屏蔽更新
+^https:\/\/xunji\.gxzckj\.com\/after310\/ios url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xunji_no_update.js
 [mitm]
 hostname = xunji.gxzckj.com
 */
