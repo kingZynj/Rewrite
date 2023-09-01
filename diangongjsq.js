@@ -35,9 +35,9 @@ if (typeof $response == "undefined") {
     "store": "app_store"
   };
 
-  anni1.subscriber.subscriptions["electricalcalculations.pro.lifetime.sale"] = data;
+  anni1.subscriber.subscriptions["electricalcalculations.pro.lifetime"] = data;
   anni1.subscriber.entitlements["pro"] = JSON.parse(JSON.stringify(data));
-  anni1.subscriber.entitlements["pro"].product_identifier = "electricalcalculations.pro.lifetime.sale";
+  anni1.subscriber.entitlements["pro"].product_identifier = "electricalcalculations.pro.lifetime";
 
   anni.body = JSON.stringify(anni1);
 }
