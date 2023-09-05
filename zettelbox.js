@@ -36,9 +36,9 @@ if (typeof $response == "undefined") {
     "store": "app_store"
   };
 
-  anni1.subscriber.subscriptions["powerpack_yearly_1""] = data;
+  anni1.subscriber.subscriptions["powerpack_yearly_1"] = data;
   anni1.subscriber.entitlements["Power Pack"] = JSON.parse(JSON.stringify(data));
-  anni1.subscriber.entitlements["Power Pack"].product_identifier = "powerpack_yearly_1"";
+  anni1.subscriber.entitlements["Power Pack"].product_identifier = "powerpack_yearly_1";
 
   anni.body = JSON.stringify(anni1);
 }
