@@ -15,8 +15,8 @@
 ^https://i\.weread\.qq\.com/login url 307 https://napi.ltd/WXDuShuLogin
 ^https://i\.weread\.qq\.com/login 307 https://napi.ltd/WXDuShuLogin
 
-[Script]
-http-response ^https://napi\.ltd/WXDuShuLogin script-path=https://napi.ltd/script/Worker/WXDuShu.js, requires-body=true, timeout=60, tag=微信读书, img-url=https://file.napi.ltd/Static/Image/WXDuShu.png
+#[Script]
+#http-response ^https://napi\.ltd/WXDuShuLogin script-path=https://napi.ltd/script/Worker/WXDuShu.js, requires-body=true, timeout=60, tag=微信读书, img-url=https://file.napi.ltd/Static/Image/WXDuShu.png
 
 [Mitm]
 hostname = i.weread.qq.com, napi.ltd
