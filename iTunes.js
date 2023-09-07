@@ -1,19 +1,20 @@
 /*************************************
 
-项目名称：账本合集
-软件版本：截止2023.9.7最新版
+项目名称：iTunes合集（此合集只包含9.7及以后的软件）
+软件版本：截止2023.9.7最新版（每一个下载地址对应一个uaProductMapping）
 下载地址：yoyo手账 https://is.gd/ko2CKP
 下载地址：bubu手账 https://is.gd/ct0H6d
 下载地址：卡卡手账 https://is.gd/XNHXGk
 下载地址：猫咪手账 https://is.gd/BKK3dy
 下载地址：恋恋手账 https://is.gd/sTVJED
 下载地址：人生笔记 https://is.gd/pKDlNG
+下载地址： 
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Shouzhangheji.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/iTunes.js
 
 [mitm]
 hostname = buy.itunes.apple.com
