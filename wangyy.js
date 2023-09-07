@@ -1,11 +1,8 @@
 /*
- *
- *
 脚本功能：网易云解锁VIP
-软件版本：++
-下载地址：苹果商店下载
-脚本作者：ios151
-更新时间：2023.09.06
+
+脚本作者：ios151 数据来自luckly
+更新时间：2023.09.07
 
 VIP音乐试听权限+
 不会变身会员,可以直接听会员歌曲！无法调高音质！
@@ -16,19 +13,8 @@ VIP音乐试听权限+
 
 [mitm] 
 hostname = *.music.163.com
-*
-*
+
 */
 
+var version_='jsjiami.com.v7';var r=b;function b(c,d){var e=a();return b=function(f,g){f=f-0x1df;var h=e[f];if(b['BaXVeQ']===undefined){var i=function(n){var o='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var p='',q='';for(var r=0x0,s,t,u=0x0;t=n['charAt'](u++);~t&&(s=r%0x4?s*0x40+t:t,r++%0x4)?p+=String['fromCharCode'](0xff&s>>(-0x2*r&0x6)):0x0){t=o['indexOf'](t);}for(var v=0x0,w=p['length'];v<w;v++){q+='%'+('00'+p['charCodeAt'](v)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(q);};var m=function(n,o){var p=[],q=0x0,r,t='';n=i(n);var u;for(u=0x0;u<0x100;u++){p[u]=u;}for(u=0x0;u<0x100;u++){q=(q+p[u]+o['charCodeAt'](u%o['length']))%0x100,r=p[u],p[u]=p[q],p[q]=r;}u=0x0,q=0x0;for(var v=0x0;v<n['length'];v++){u=(u+0x1)%0x100,q=(q+p[u])%0x100,r=p[u],p[u]=p[q],p[q]=r,t+=String['fromCharCode'](n['charCodeAt'](v)^p[(p[u]+p[q])%0x100]);}return t;};b['hNfxLo']=m,c=arguments,b['BaXVeQ']=!![];}var j=e[0x0],k=f+j,l=c[k];return!l?(b['jTSHJA']===undefined&&(b['jTSHJA']=!![]),h=b['hNfxLo'](h,g),c[k]=h):h=l,h;},b(c,d);}(function(c,d,e,f,g,h,i){return c=c>>0x4,h='hs',i='hs',function(j,k,l,m,n){var q=b;m='tfi',h=m+h,n='up',i+=n,h=l(h),i=l(i),l=0x0;var o=j();while(!![]&&--f+k){try{m=parseInt(q(0x1e1,'L2Tk'))/0x1+-parseInt(q(0x1ee,'Sf52'))/0x2+-parseInt(q(0x1ef,'j7&Z'))/0x3+-parseInt(q(0x1e8,'Sf52'))/0x4*(parseInt(q(0x1f3,'7Gt$'))/0x5)+parseInt(q(0x1f4,'D5R!'))/0x6+-parseInt(q(0x1df,'i1KG'))/0x7*(-parseInt(q(0x1f2,'Suxv'))/0x8)+parseInt(q(0x1e7,'Sf52'))/0x9*(parseInt(q(0x1e9,'^K#D'))/0xa);}catch(p){m=l;}finally{n=o[h]();if(c<=f)l?g?m=n:g=n:l=n;else{if(l==g['replace'](/[TYlkLCQOXeIUfFhtdKbuy=]/g,'')){if(m===k){o['un'+h](n);break;}o[i](n);}}}}}(e,d,function(j,k,l,m,n,o,p){return k='\x73\x70\x6c\x69\x74',j=arguments[0x0],j=j[k](''),l='\x72\x65\x76\x65\x72\x73\x65',j=j[l]('\x76'),m='\x6a\x6f\x69\x6e',(0x13d0fd,j[m](''));});}(0xbf0,0x97304,a,0xc1),a)&&(version_=a);headers=$request[r(0x1f0,'V62[')],headers[r(0x1e3,'c!9B')]=r(0x1ec,'KAvP'),headers['User-Agent']='NeteaseMusic\x208.10.60/4390\x20(iPhone;\x20iOS\x2015.1.1;\x20zh_CN)',headers['MConfig-Info']='{\x22zr4bw6pKFDIZScpo\x22:{\x22version\x22:1009664,\x22appver\x22:\x228.10.60\x22},\x22tPJJnts2H31BZXmp\x22:{\x22version\x22:2193408,\x22appver\x22:\x222.0.30\x22},\x22c0Ve6C0uNl2Am0Rl\x22:{\x22version\x22:595968,\x22appver\x22:\x221.7.50\x22},\x22IuRPVVmc3WWul9fT\x22:{\x22version\x22:22693888,\x22appver\x22:\x228.10.60\x22}}',headers['Accept-Encoding']=r(0x1eb,'^K#D'),headers['Content-Length']=0x3e07,$done({'headers':headers});function a(){var s=(function(){return[version_,'QKbjsjiTaQmUXiTQ.IcfyoLhmdF.YtvlC7befkOu==','WP3dIMf+tYzWWO8','WPVcT0TvrsH0','s8odECoVW6ddGSkEW53dOSoLjJL+','aSkiW6/cMsHvu8khWPWRnSo5W7a','fCkkjCkU','r3ZdOdeYWRPWWQ4eWQNdTIrldZZdHCoTWPLxbCogtCkpiSo0WOZdL30DW6e3rSkGWQmGm8kdW7eOrKryWOhdICoMyCkYtGhdUxlcLCkMnmoVv8oqWPdcOeddTsWvaSouWPtdMvlcOCovDJuEgSooAuPNBb3dPCogbSooWPRcLXnkpX0vW4T1qmoxWR3cMmknW5CzWO5pt8k5svioDqRdOWnqzgJcGaKmWQJcOmoSW4xdO1dcVmk8W5GqCX8kW6HwW4jnWQ/dRwhdU8okfCknWRRcKCkeWQddMXffWO/dHgyiWR1WC3xdJX7cQrFcJWDtWQSIW4hdU8koWRtdJmkfW7mLWOfsWPNdISogpSkobmoFvWnlW4hcUKzApWBcLtfeW6/dRSooosjSBmodE1ldGmkquG8CDmo0W5bkW4xcKa9LtLZdRa3cUwThhxagrvhcH8oAqSkBpSkgFmkAW5dcKSoFW4FcK8kUWQxcHmkQW4JcMvNcOfhdUg4NWRBcNSkgnrRcM8k1WO4YWOvLWONdJ8osgCoZW7ZcRHFdI2LezSkykSo0WPBdOYmtW53cP8o6tSoQW6afhmoxWPlcIelcJCkagCkgDtZdRSopaCkjwZpcMCoygatdUJ7dQSoQle1mBcyyWOxdLKZdJmkNnKypW4q0WRffW4ZdJf7cImoSW49Samo4dLxcIshcR8kWWQ3dUSoAy8kxgdldJColW6BcQ8kPWRbOs1hcLXSIW4VcPWpdRmkMW58ydSkHW4nmWQnuumoXW7xdINmiW5Oik2dcKmouW4jbESoufwNdMmoquSo+yCk2W6xcLmkJW6ldJConWQFcVCkBsLaHWPOXW4uwvrBcMCoxW7y5qSkyz03cLSo+wSk3WO3dNIWpimkqWPRcISkgW5ulWOxcOSk1orCniCoCW7xdK8kIW6eSvuOInLpdPKWvWRqwW64vzdFdKmo8BWWooSkWW5/dPstcPSklWRWcdqWfk8oReCkjiLZcKgVdVrflW7fIoM/dOCkagKtdRCkyAxdcSeRdNCkuimoMaCoeW6FcUSolWRCMsCkhimk8ACohW5lcP8ohmYrMWQvljMFdLSoBgmoMWPtdOSkoWQKBW7hdS2JcRmoIaCkfW5K9xmonbLfsW5n3WP3dIhHzWPxcR8kfh0tdM8ooyIhdRmoIW6XIW4mz','zmkyyJRdKbpcQhddQSorz8oQAW'].concat((function(){return['WP7dHt4NgMuvWQW4A8kMWR4+','WRWnEZXTiCoaW43cKuL1fGe','WRNcRIP7W6aYWQG','BSo/WPJdR8keB3VdGaZcRCkjomoS','W5K3W4PPW580xq','WQNdGryVuhW6ESohpmo5WPldKW','W6lcLeWaWRZcQ2lcT1e+WQmYpG','ySkAzdRdKrlcQ0BdJCofrmoFFa','dGVcICkjW6rPvmojeGO'].concat((function(){return['WR5kW512WOflW5uSW6FdJW','gWhdMLJcLx8Ekq','dMRcRmkFW5ZcGq','ySkBzdRdNHNcOvpdHSoDvCo+DG','Cmoqy8olC8kIcq','papcM0PgumoNkcJdRZhcPmoP'];}()));}()));}());a=function(){return s;};return a();};var version_ = 'jsjiami.com.v7';
 
-headers = $request.headers;
-
-headers['Cookie'] = 'MUSIC_U=00AD70D81A55CE36B92ACA483BBCC24F139C37613DE96A7B08CB0827A9C7924A95968FFC0B8C1B823C92ED6CAD1AF045F75458D2B5337391F089458B1A7EF6FA8EDCBE00A34C7D0A2AF77AFBCB4995DC5E42C54ECA1E1AF80F57DFCD040EC2ECDBC996B503F530437CD1416D8404014329747502276D57616CA1495F1C8B1B2530CCC2FC78A5976DF4E6C573D458389216F8EBDFCE24295C671981D305CD55276698C789BB7670EC011B252A575973C97A5CDE395EF9C716CA5F8FF21C6E8865D2F06FF0128747B6E0417D81FA54EB9B0C8A84BD6A4DEDF61248B66301DAED747F894B889A40E64947D105EE779B40F9C489B418F9CBD8A664B3ABD46B558769DA46B6A938B1FFBC8EF79C2BBD7C845C0F57BE8A3337A8A01ED145DE914BCCCBA7; NMTID= 00OzuRAhhDHwPAFXUFDlo4r5Q0L_t0AAAGKaoTVZA; buildver= 4390; channel=distribution; EVNSM=1.0.0; appver= 8.10.60; deviceId= c7a1f2b12895cb819fe203c5ec8c63a2; os=iPhone OS; osver= 15.1.1; machineid= iPhone13.3; NMCID= odtfxl.1694003079000.01.3; appkey= IuRPVVmc3WWul9fT; URS_APPID= 3D0FAD4A0B172A071B1B8BDB3FDC43FBEB59CA9560C189EB1BD08C580C84C6E3FFE6C6BFD71E396E78C7602A71EA459C; NMDI= Q1NKTQcBDABNTjY3%2BKjuIXsgXZ2VAAAA%2F1Gw8AUV9odDx06u27WPku22kGq8ua%2BvH3O99dZXaC6Sq6YbdyIH%2BAsjEY0o9hG6PVznJA%2Fqoofi%2F4WZJCHVoaLSFRvSGsnUP9l8tsTT28f8BvnZ0OvjuG%2FJE37ghgBF4GpGNiX7IJ9NsUzbbMwlW6tDvjqeR1i9ck49tdUtI5BAOBf8Eyqi%2Fy0V3A9OlDp3XakClVU%3D';
-
-headers['User-Agent'] = 'NeteaseMusic 8.10.60/4390 (iPhone; iOS 15.1.1; zh_CN)';
-
-headers['MConfig-Info'] = '{"zr4bw6pKFDIZScpo":{"version":1009664,"appver":"8.10.60"},"tPJJnts2H31BZXmp":{"version":2189312,"appver":"2.0.30"},"c0Ve6C0uNl2Am0Rl":{"version":595968,"appver":"1.7.50"},"IuRPVVmc3WWul9fT":{"version":22640640,"appver":"8.10.60"}}';
-
-$done({
-    headers
-});
