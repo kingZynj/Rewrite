@@ -1,12 +1,7 @@
 /*
-脚本功能：网易云解锁VIP
-免责声明：仅供参考 请勿传播 脚本具有时效性
-脚本作者：ios151 数据来自luckly
 更新时间：2023.09.07
-
 VIP音乐试听权限+
 不会变身会员,可以直接听会员歌曲！无法调高音质！
-
 [rewrite_local]
 # > 网易云解锁VIP
 ^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/wangyy.js
