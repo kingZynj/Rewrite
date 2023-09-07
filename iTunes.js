@@ -8,7 +8,8 @@
 下载地址：猫咪手账 https://is.gd/BKK3dy
 下载地址：恋恋手账 https://is.gd/sTVJED
 下载地址：人生笔记 https://is.gd/pKDlNG
-下载地址： 
+下载地址：貔貅记账 https://is.gd/wojipn 5.9.2
+
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -41,6 +42,8 @@ var uaProductMapping = {
   'BuBuSZ': {product_id: 'quaVersion'},
   'LingLongShouZ': {product_id: 'zhenwushouzhangPlusVersion'},
   'Dart': {product_id: 'xyz.iofree.lifelog.pro.yearly'},
+  'Pixiu%E8%AE%B0%E8%B4%A6': {product_id: 'com.RuoG.Pixiu.VIPYear'},
+  
 
 };
 var receipt = {
